@@ -55,10 +55,14 @@ Ta thấy được dữ liệu missing chủ yếu ở các cột Cos phi, phi a
 <img src=".\images\chuanhoa1.jpg">
 <img src=".\images\chuan2.jpg">
 <img src=".\images\chuan3.jpg">
+
 ## Gán nhãn tự động
+
 Ta có thể dự vào các yếu tố sau của SCADA để góp phần đánh giá trạm biến áp tại thời điểm đó là bình thường hay bất thường.
 - Tần số (F) từ 49 đến 50 Hz, phù hợp với tần số lưới điện.
 - Công suất hoạt động (Pt) từ khoảng 500 kW đến hơn 2000 kW, phù hợp với công suất đo tại trạm biến áp.
 - Các giá trị dòng điện (I) từ khoảng 15A đến hơn 60A, phù hợp với dòng điện trung bình của trạm biến áp.
+- Nhãn sẽ được đánh tự động dựa vào các tiêu chí đề ở trên và sẽ được đánh là 1 nếu bất thường, 0 là bình thường. 
+
 **Kết quả**
 <img src=".\images\datadanhnhan.jpg">
